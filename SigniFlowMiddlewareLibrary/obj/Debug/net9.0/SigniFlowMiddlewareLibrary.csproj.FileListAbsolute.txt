@@ -1,0 +1,12 @@
+C:\Users\LungaMalinga\Desktop\dev\CSharpProjects\SigniFlowMiddlewareLibrary\SigniFlowMiddlewareLibrary\bin\Debug\net9.0\SigniFlowMiddlewareLibrary.deps.json
+C:\Users\LungaMalinga\Desktop\dev\CSharpProjects\SigniFlowMiddlewareLibrary\SigniFlowMiddlewareLibrary\bin\Debug\net9.0\SigniFlowMiddlewareLibrary.dll
+C:\Users\LungaMalinga\Desktop\dev\CSharpProjects\SigniFlowMiddlewareLibrary\SigniFlowMiddlewareLibrary\bin\Debug\net9.0\SigniFlowMiddlewareLibrary.pdb
+C:\Users\LungaMalinga\Desktop\dev\CSharpProjects\SigniFlowMiddlewareLibrary\SigniFlowMiddlewareLibrary\obj\Debug\net9.0\SigniFlowMiddlewareLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LungaMalinga\Desktop\dev\CSharpProjects\SigniFlowMiddlewareLibrary\SigniFlowMiddlewareLibrary\obj\Debug\net9.0\SigniFlowMiddlewareLibrary.AssemblyInfoInputs.cache
+C:\Users\LungaMalinga\Desktop\dev\CSharpProjects\SigniFlowMiddlewareLibrary\SigniFlowMiddlewareLibrary\obj\Debug\net9.0\SigniFlowMiddlewareLibrary.AssemblyInfo.cs
+C:\Users\LungaMalinga\Desktop\dev\CSharpProjects\SigniFlowMiddlewareLibrary\SigniFlowMiddlewareLibrary\obj\Debug\net9.0\SigniFlowMiddlewareLibrary.csproj.CoreCompileInputs.cache
+C:\Users\LungaMalinga\Desktop\dev\CSharpProjects\SigniFlowMiddlewareLibrary\SigniFlowMiddlewareLibrary\obj\Debug\net9.0\SigniFlowMiddlewareLibrary.dll
+C:\Users\LungaMalinga\Desktop\dev\CSharpProjects\SigniFlowMiddlewareLibrary\SigniFlowMiddlewareLibrary\obj\Debug\net9.0\refint\SigniFlowMiddlewareLibrary.dll
+C:\Users\LungaMalinga\Desktop\dev\CSharpProjects\SigniFlowMiddlewareLibrary\SigniFlowMiddlewareLibrary\obj\Debug\net9.0\SigniFlowMiddlewareLibrary.pdb
+C:\Users\LungaMalinga\Desktop\dev\CSharpProjects\SigniFlowMiddlewareLibrary\SigniFlowMiddlewareLibrary\obj\Debug\net9.0\ref\SigniFlowMiddlewareLibrary.dll
+C:\Users\LungaMalinga\Desktop\dev\CSharpProjects\SigniFlowMiddlewareLibrary\SigniFlowMiddlewareLibrary\obj\Debug\net9.0\SigniFlowMiddlewareLibrary.csproj.AssemblyReference.cache
