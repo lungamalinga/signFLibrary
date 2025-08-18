@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36327.8 d17.14
+VisualStudioVersion = 17.14.36327.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SigniFlowMiddlewareLibrary", "SigniFlowMiddlewareLibrary\SigniFlowMiddlewareLibrary.csproj", "{C257038C-792C-4CCD-B416-D6C70074566A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{9B438642-AF27-4D4F-8AB3-DF1A8D01C968}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SigniFlowMiddlewareApiTrigger", "SigniFlowMiddlewareApiTrigger\SigniFlowMiddlewareApiTrigger.csproj", "{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{C257038C-792C-4CCD-B416-D6C70074566A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C257038C-792C-4CCD-B416-D6C70074566A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C257038C-792C-4CCD-B416-D6C70074566A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9B438642-AF27-4D4F-8AB3-DF1A8D01C968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B438642-AF27-4D4F-8AB3-DF1A8D01C968}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B438642-AF27-4D4F-8AB3-DF1A8D01C968}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B438642-AF27-4D4F-8AB3-DF1A8D01C968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
