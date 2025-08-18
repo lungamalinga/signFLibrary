@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aqAweWhxdEU=",
+  "dgSpecHash": "yve95wTHCV8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj",
+  "projectFilePath": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniflowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LungaMalinga\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\LungaMalinga\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",
