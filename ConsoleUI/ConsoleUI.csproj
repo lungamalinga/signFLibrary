@@ -11,4 +11,8 @@
     <ProjectReference Include="..\SigniFlowMiddlewareLibrary\SigniFlowMiddlewareLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Logs\" />
+  </ItemGroup>
+
 </Project>

@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\ConsoleUI\\ConsoleUI.csproj": {}
+    "/Users/lungamalinga/dev/spark/signFLibrary/ConsoleUI/ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\ConsoleUI\\ConsoleUI.csproj": {
+    "/Users/lungamalinga/dev/spark/signFLibrary/ConsoleUI/ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "/Users/lungamalinga/dev/spark/signFLibrary/ConsoleUI/ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\ConsoleUI\\ConsoleUI.csproj",
-        "packagesPath": "C:\\Users\\LungaMalinga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\ConsoleUI\\obj\\",
+        "projectPath": "/Users/lungamalinga/dev/spark/signFLibrary/ConsoleUI/ConsoleUI.csproj",
+        "packagesPath": "/Users/lungamalinga/.nuget/packages/",
+        "outputPath": "/Users/lungamalinga/dev/spark/signFLibrary/ConsoleUI/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\LungaMalinga\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/lungamalinga/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj": {
-                "projectPath": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj"
+              "/Users/lungamalinga/dev/spark/signFLibrary/SigniFlowMiddlewareLibrary/SigniFlowMiddlewareLibrary.csproj": {
+                "projectPath": "/Users/lungamalinga/dev/spark/signFLibrary/SigniFlowMiddlewareLibrary/SigniFlowMiddlewareLibrary.csproj"
               }
             }
           }
@@ -69,32 +63,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj": {
+    "/Users/lungamalinga/dev/spark/signFLibrary/SigniFlowMiddlewareLibrary/SigniFlowMiddlewareLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj",
+        "projectUniqueName": "/Users/lungamalinga/dev/spark/signFLibrary/SigniFlowMiddlewareLibrary/SigniFlowMiddlewareLibrary.csproj",
         "projectName": "SigniFlowMiddlewareLibrary",
-        "projectPath": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj",
-        "packagesPath": "C:\\Users\\LungaMalinga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\obj\\",
+        "projectPath": "/Users/lungamalinga/dev/spark/signFLibrary/SigniFlowMiddlewareLibrary/SigniFlowMiddlewareLibrary.csproj",
+        "packagesPath": "/Users/lungamalinga/.nuget/packages/",
+        "outputPath": "/Users/lungamalinga/dev/spark/signFLibrary/SigniFlowMiddlewareLibrary/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\LungaMalinga\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/lungamalinga/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -152,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

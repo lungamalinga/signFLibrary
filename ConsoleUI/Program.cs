@@ -1,4 +1,4 @@
-﻿using SigniFlowMiddlewareLibrary;
+﻿using SigniflowMiddlewareCSharp.Loggings;
 
 namespace ConsoleUI
 {
@@ -6,15 +6,10 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What is your first nmae?");
-            string ? name = Console.ReadLine();
-
-            Console.WriteLine("What is your surname?");
-            string ? surname = Console.ReadLine();
-
-            string fullnmae = PersonProcessor.JoinName(name, surname);
-            Console.Write(fullnmae);
-
+            MyLogs myLogs = new MyLogs();
+            myLogs.LogError("This is an error message...");
+            myLogs.LogInfo("This is an error info...");
+            myLogs.LogWarning("This is an error warning...");
         }
     }
 }
