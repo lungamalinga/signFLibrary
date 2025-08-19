@@ -22,11 +22,13 @@ namespace SigniFlowMiddlewareLibrary.SageService
         private readonly string SAGE_URL;
         private readonly string connectionString;
         private readonly MyLogs myLogs;
+        private readonly string SAGE_API_KEY;
 
-        public SageServices(string SAGE_URL)
+        public SageServices(string SAGE_URL, string SAGE_API_KEY, string LogDbConnectionString)
         {
             this.SAGE_URL = SAGE_URL;
-            this.connectionString = Environment.GetEnvironmentVariable("MySQLConnectionString");
+            this.SAGE_API_KEY = SAGE_API_KEY;
+            this.connectionString = LogDbConnectionString;
             this.myLogs = new MyLogs(this.connectionString);
         }
 
@@ -38,7 +40,8 @@ namespace SigniFlowMiddlewareLibrary.SageService
             try
             {
                 // auth
-                var auth = await SageAuth.GetTokenAndCookie();
+                SageAuth sageAuth = new SageAuth(SAGE_URL, SAGE_API_KEY);
+                var auth = await sageAuth.GetTokenAndCookie();
                 string token = auth.token;
                 string cookie = auth.cookie;
                 string EMPS_URL = SAGE_URL + "/api/apibase/GenericGet/EMPINFO"; // Environment.GetEnvironmentVariable("GET_EMP_URL");
@@ -88,7 +91,8 @@ namespace SigniFlowMiddlewareLibrary.SageService
          */
         public async Task<string> GetSageDocumentHeader()
         {
-            var auth = await SageAuth.GetTokenAndCookie();
+            SageAuth sageAuth = new SageAuth(SAGE_URL, SAGE_API_KEY);
+            var auth = await sageAuth.GetTokenAndCookie();
             string token = auth.token;
             string cookie = auth.cookie;
 
@@ -111,7 +115,8 @@ namespace SigniFlowMiddlewareLibrary.SageService
         // todo: Post Document to Sage
         public async Task<object> PostDocumentToDage(string filePath, string APIHeaderID, string companyRuleCode, string employeeCode, string fileName)
         {
-            var auth = await SageAuth.GetTokenAndCookie();
+            SageAuth sageAuth = new SageAuth(SAGE_URL, SAGE_API_KEY);
+            var auth = await sageAuth.GetTokenAndCookie();
             string token = auth.token;
             string cookie = auth.cookie;
 

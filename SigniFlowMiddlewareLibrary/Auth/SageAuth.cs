@@ -20,12 +20,16 @@ namespace SigniFlowMiddlewareLibrary.Auth
     }
 
     // Token Authentication
-    public static class SageAuth
+    public class SageAuth
     {
-        private static readonly string SAGE_URL = "https://online.sage.co.za/M91423"; // TODO: Environment.GetEnvironmentVariable("SAGE_URL");
-        private static readonly string API_KEY = "6598ea86-b185-49ee-bcab-df19d5c4f4cd"; // TODO: Environment.GetEnvironmentVariable("SAGE_API_KEY");
+        string SAGE_URL;
+        string API_KEY; // TODO: Environment.GetEnvironmentVariable("SAGE_API_KEY");
 
-        public static async Task<SageAuthResponse> GetTokenAndCookie()
+        public SageAuth( string SAGE_URL, string API_KEY) {
+            this.SAGE_URL = SAGE_URL;
+            this.API_KEY = API_KEY;
+        }
+        public async Task<SageAuthResponse> GetTokenAndCookie()
         {
             using (var client = new HttpClient())
             {
@@ -33,11 +37,11 @@ namespace SigniFlowMiddlewareLibrary.Auth
                 var body = new FormUrlEncodedContent(new[]
                 {
                 new KeyValuePair<string, string>("grant_type", "password"),
-                new KeyValuePair<string, string>("scope", $"apiKey={API_KEY}")
+                new KeyValuePair<string, string>("scope", $"apiKey={this.API_KEY}")
             });
 
                 //  post to sage
-                var response = await client.PostAsync($"{SAGE_URL}/token", body);
+                var response = await client.PostAsync($"{this.SAGE_URL}/token", body);
                 response.EnsureSuccessStatusCode();
 
                 // get token and cookie from sage

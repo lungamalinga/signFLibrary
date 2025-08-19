@@ -72,7 +72,9 @@ public class DocumentFunction
 
             // todo: get document header from Sage
             string SAGE_URL = Environment.GetEnvironmentVariable("SAGE_URL");
-            var sageService = new SageServices( SAGE_URL);
+            string SAGE_API_KEY = Environment.GetEnvironmentVariable("SAGE_API_KEY");
+            string LogDbConnString = Environment.GetEnvironmentVariable("MySQLConnectionString");
+            var sageService = new SageServices( SAGE_URL, SAGE_API_KEY, LogDbConnString);
             var header = await sageService.GetSageDocumentHeader();
 
             // post to sage - if statement here

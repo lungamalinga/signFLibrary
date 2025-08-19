@@ -39,7 +39,9 @@ public class SageFunction
         // Your main function logic here
         // auth end
         string SAGE_URL = Environment.GetEnvironmentVariable("SAGE_URL");
-        SageServices sageServices = new SageServices( SAGE_URL );
+        string SAGE_API_KEY = Environment.GetEnvironmentVariable("SAGE_API_KEY");
+        string LogDbConnString = Environment.GetEnvironmentVariable("MySQLConnectionString");
+        SageServices sageServices = new SageServices( SAGE_URL, SAGE_API_KEY, LogDbConnString );
         Object finalResult = null;
         Object EmployeeData = null;
         await sageServices.GetEmployees().ContinueWith(task =>
