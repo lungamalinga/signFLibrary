@@ -27,31 +27,16 @@ public class SageFunction
     public async Task<IActionResult> RunAsync([HttpTrigger(AuthorizationLevel.Function, "post")] HttpRequest req)
     {
         // auth check
-        string authHeader = req.Headers["Authorization"];
-
-        if (string.IsNullOrEmpty(authHeader) || !authHeader.StartsWith("Bearer "))
+        var authResult = AuthHelper.ValidateToken(req, myLogs);
+        if (authResult != null)
         {
-            return new UnauthorizedResult();
+            return authResult;
+        }
+        else {
+            myLogs.LogInfo("Authenticated successfully!");
         }
 
-        string token = authHeader.Substring("Bearer ".Length).Trim();
-
-        var tokenHandler = new JwtSecurityTokenHandler();
-        var validationParameters = new TokenValidationParameters
-        {
-            ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("your-secret-key")),
-            ValidateIssuer = false,
-            ValidateAudience = false
-        };
-
-        // Check if the token matches
-        string expectedToken = Environment.GetEnvironmentVariable("BearerToken");
-        if (token != expectedToken)
-        {
-            myLogs.LogWarning("Invalid token provided.");
-            return new UnauthorizedResult();
-        }
+        // Your main function logic here
         // auth end
         string SAGE_URL = Environment.GetEnvironmentVariable("SAGE_URL");
         SageServices sageServices = new SageServices( SAGE_URL );

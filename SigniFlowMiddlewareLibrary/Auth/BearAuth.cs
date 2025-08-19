@@ -1,63 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.IdentityModel.Tokens.Jwt;
 using System.Text;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Configuration;
-using System.Configuration;
-using System.Net.Http;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
+using SigniflowMiddlewareCSharp.Loggings;
 
-namespace SigniFlowMiddlewareLibrary.Auth
+public static class AuthHelper
 {
-    public class BearAuth
+    public static IActionResult ValidateToken(HttpRequest req, MyLogs log)
     {
-        private readonly RequestDelegate _next;
-        private const string AUTH_HEADER = "Authorization";
+        string authHeader = req.Headers["Authorization"];
 
-        public BearAuth(RequestDelegate next)
+        if (string.IsNullOrEmpty(authHeader) || !authHeader.StartsWith("Bearer "))
         {
-            _next = next;
+            log.LogWarning("Authorization header missing or malformed.");
+            return new UnauthorizedResult();
         }
 
-        // ... rest of the file remains unchanged
+        string token = authHeader.Substring("Bearer ".Length).Trim();
 
-        public async Task InvokeAsync(HttpContext context, IConfiguration configuration)
+        string expectedToken = Environment.GetEnvironmentVariable("BearerToken");
+        if (token != expectedToken)
         {
-            if (!context.Request.Headers.ContainsKey(AUTH_HEADER))
-            {
-                context.Response.StatusCode = 401;
-                Console.WriteLine("Authorization header missing.");
-                await context.Response.WriteAsync("Authorization header missing.");
-                return;
-            }
-
-            var authHeader = context.Request.Headers[AUTH_HEADER].ToString();
-
-            if (!authHeader.StartsWith("Bearer "))
-            {
-                context.Response.StatusCode = 401;
-                Console.WriteLine("Invalid authorization header format.");
-                await context.Response.WriteAsync("Invalid authorization header.");
-                return;
-            }
-
-            var token = authHeader.Substring("Bearer ".Length).Trim();
-
-            // Replace GetValue<T> with direct access to configuration value
-            var validToken = configuration["BearerToken"];
-
-            if (token != validToken)
-            {
-                context.Response.StatusCode = 403;
-                Console.WriteLine("Invalid Bearer token.");
-                await context.Response.WriteAsync("Invalid token.");
-                return;
-            }
-
-            await _next(context);
+            log.LogWarning("Invalid token provided.");
+            return new UnauthorizedResult();
         }
+        return null;
     }
-
 }
