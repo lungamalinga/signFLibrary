@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}|SigniFlowMiddlewareApiTrigger\\SigniFlowMiddlewareApiTrigger.csproj|c:\\users\\lungamalinga\\desktop\\dev\\csharpprojects\\signiflowmiddlewarelibrary\\signiflowmiddlewareapitrigger\\documentfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}|SigniFlowMiddlewareApiTrigger\\SigniFlowMiddlewareApiTrigger.csproj|solutionrelative:signiflowmiddlewareapitrigger\\documentfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}|SigniFlowMiddlewareApiTrigger\\SigniFlowMiddlewareApiTrigger.csproj|c:\\users\\lungamalinga\\desktop\\dev\\csharpprojects\\signiflowmiddlewarelibrary\\signiflowmiddlewareapitrigger\\sagefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}|SigniFlowMiddlewareApiTrigger\\SigniFlowMiddlewareApiTrigger.csproj|solutionrelative:signiflowmiddlewareapitrigger\\sagefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C257038C-792C-4CCD-B416-D6C70074566A}|SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj|c:\\users\\lungamalinga\\desktop\\dev\\csharpprojects\\signiflowmiddlewarelibrary\\signiflowmiddlewarelibrary\\filesservice\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C257038C-792C-4CCD-B416-D6C70074566A}|SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj|solutionrelative:signiflowmiddlewarelibrary\\filesservice\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C257038C-792C-4CCD-B416-D6C70074566A}|SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj|c:\\users\\lungamalinga\\desktop\\dev\\csharpprojects\\signiflowmiddlewarelibrary\\signiflowmiddlewarelibrary\\sageservice\\sageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C257038C-792C-4CCD-B416-D6C70074566A}|SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj|solutionrelative:signiflowmiddlewarelibrary\\sageservice\\sageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}|SigniFlowMiddlewareApiTrigger\\SigniFlowMiddlewareApiTrigger.csproj|c:\\users\\lungamalinga\\desktop\\dev\\csharpprojects\\signiflowmiddlewarelibrary\\signiflowmiddlewareapitrigger\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}|SigniFlowMiddlewareApiTrigger\\SigniFlowMiddlewareApiTrigger.csproj|solutionrelative:signiflowmiddlewareapitrigger\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}|SigniFlowMiddlewareApiTrigger\\SigniFlowMiddlewareApiTrigger.csproj|c:\\users\\lungamalinga\\desktop\\dev\\csharpprojects\\signiflowmiddlewarelibrary\\signiflowmiddlewareapitrigger\\sageresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{C257038C-792C-4CCD-B416-D6C70074566A}|SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj|solutionrelative:signiflowmiddlewarelibrary\\auth\\bearauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}|SigniFlowMiddlewareApiTrigger\\SigniFlowMiddlewareApiTrigger.csproj|c:\\users\\lungamalinga\\desktop\\dev\\csharpprojects\\signiflowmiddlewarelibrary\\signiflowmiddlewareapitrigger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}|SigniFlowMiddlewareApiTrigger\\SigniFlowMiddlewareApiTrigger.csproj|solutionrelative:signiflowmiddlewareapitrigger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}|SigniFlowMiddlewareApiTrigger\\SigniFlowMiddlewareApiTrigger.csproj|c:\\users\\lungamalinga\\desktop\\dev\\csharpprojects\\signiflowmiddlewarelibrary\\signiflowmiddlewareapitrigger\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}|SigniFlowMiddlewareApiTrigger\\SigniFlowMiddlewareApiTrigger.csproj|solutionrelative:signiflowmiddlewareapitrigger\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}|SigniFlowMiddlewareApiTrigger\\SigniFlowMiddlewareApiTrigger.csproj|c:\\users\\lungamalinga\\desktop\\dev\\csharpprojects\\signiflowmiddlewarelibrary\\signiflowmiddlewareapitrigger\\documentfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18B9F4F-860E-41DB-8EBF-C7370D27A2CB}|SigniFlowMiddlewareApiTrigger\\SigniFlowMiddlewareApiTrigger.csproj|solutionrelative:signiflowmiddlewareapitrigger\\documentfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C257038C-792C-4CCD-B416-D6C70074566A}|SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj|c:\\users\\lungamalinga\\desktop\\dev\\csharpprojects\\signiflowmiddlewarelibrary\\signiflowmiddlewarelibrary\\sageservice\\sageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C257038C-792C-4CCD-B416-D6C70074566A}|SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj|solutionrelative:signiflowmiddlewarelibrary\\sageservice\\sageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,104 +42,91 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "local.settings.json",
               "DocumentMoniker": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareApiTrigger\\local.settings.json",
               "RelativeDocumentMoniker": "SigniFlowMiddlewareApiTrigger\\local.settings.json",
               "ToolTip": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareApiTrigger\\local.settings.json",
               "RelativeToolTip": "SigniFlowMiddlewareApiTrigger\\local.settings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-19T06:00:22.795Z",
+              "WhenOpened": "2025-08-19T07:13:12.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareApiTrigger\\Program.cs",
-              "RelativeDocumentMoniker": "SigniFlowMiddlewareApiTrigger\\Program.cs",
-              "ToolTip": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareApiTrigger\\Program.cs",
-              "RelativeToolTip": "SigniFlowMiddlewareApiTrigger\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T05:49:32.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "BearAuth.cs",
               "DocumentMoniker": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\Auth\\BearAuth.cs",
               "RelativeDocumentMoniker": "SigniFlowMiddlewareLibrary\\Auth\\BearAuth.cs",
               "ToolTip": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\Auth\\BearAuth.cs",
               "RelativeToolTip": "SigniFlowMiddlewareLibrary\\Auth\\BearAuth.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAswCYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T05:45:37.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "SageResponse.cs",
               "DocumentMoniker": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareApiTrigger\\SageResponse.cs",
               "RelativeDocumentMoniker": "SigniFlowMiddlewareApiTrigger\\SageResponse.cs",
               "ToolTip": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareApiTrigger\\SageResponse.cs",
               "RelativeToolTip": "SigniFlowMiddlewareApiTrigger\\SageResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T21:49:20.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DocumentService.cs",
               "DocumentMoniker": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\FilesService\\DocumentService.cs",
               "RelativeDocumentMoniker": "SigniFlowMiddlewareLibrary\\FilesService\\DocumentService.cs",
               "ToolTip": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\FilesService\\DocumentService.cs",
               "RelativeToolTip": "SigniFlowMiddlewareLibrary\\FilesService\\DocumentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T20:50:30.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SageFunction.cs",
               "DocumentMoniker": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareApiTrigger\\SageFunction.cs",
               "RelativeDocumentMoniker": "SigniFlowMiddlewareApiTrigger\\SageFunction.cs",
               "ToolTip": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareApiTrigger\\SageFunction.cs",
               "RelativeToolTip": "SigniFlowMiddlewareApiTrigger\\SageFunction.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwDMAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwCYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T20:38:17.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "DocumentFunction.cs",
               "DocumentMoniker": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareApiTrigger\\DocumentFunction.cs",
               "RelativeDocumentMoniker": "SigniFlowMiddlewareApiTrigger\\DocumentFunction.cs",
               "ToolTip": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareApiTrigger\\DocumentFunction.cs",
               "RelativeToolTip": "SigniFlowMiddlewareApiTrigger\\DocumentFunction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowFwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T20:21:58.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "SageService.cs",
               "DocumentMoniker": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SageService\\SageService.cs",
               "RelativeDocumentMoniker": "SigniFlowMiddlewareLibrary\\SageService\\SageService.cs",
               "ToolTip": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SageService\\SageService.cs",
               "RelativeToolTip": "SigniFlowMiddlewareLibrary\\SageService\\SageService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwGgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwGcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T18:11:54.223Z",
               "EditorCaption": ""

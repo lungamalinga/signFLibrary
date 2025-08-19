@@ -60,7 +60,8 @@ public class DocumentFunction
 
             DocumentServices documentServices = new DocumentServices();
             var uuid = Guid.NewGuid().ToString();
-            string customFileName = $"{employeeCode}_{empName}_{empSurname}_{documentName.Replace(".pdf", "")}_{signingDate}_{uuid}.pdf";
+            // todo: add these on prod - naming -> _{signingDate}_{uuid}
+            string customFileName = $"{employeeCode}_{empName}_{empSurname}_{documentName.Replace(".pdf", "")}.pdf";
 
             await documentServices.saveDocLocally(customFileName, base64String);
             myLogs.LogInfo("Received payload :: " + requestBody.RootElement.GetRawText());
@@ -79,12 +80,14 @@ public class DocumentFunction
             if (sageResponse.success)
             {
                 documentServices.deleteFile(customFileName);
+                myLogs.LogInfo("Sage upload successful: " + sageResponse.message);
                 return new OkObjectResult("Succesfull uploaded");
             }
             else
             {
                 // docService.deleteFile(customFileName);
                 documentServices.deleteFile(customFileName);
+                myLogs.LogError("Sage upload failed: " + sageResponse.message);
                 return new BadRequestObjectResult(sageResponse.message);
             }
         } catch (Exception ex) {
