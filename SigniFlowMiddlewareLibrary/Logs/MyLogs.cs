@@ -4,10 +4,10 @@ namespace SigniflowMiddlewareCSharp.Loggings
 {
     public class MyLogs
     {
-        // Initialize the logger in a static constructor to ensure it's set up once for the class
-        static MyLogs()
+        string connString;
+        public MyLogs( string connectionString )
         {
-            var connectionString = "server=en33-jhb.za-dns.com;uid=sparksch_dev;pwd=Password00@11;database=sparksch_csharp;";
+            this.connString = connectionString;
 
             Log.Logger = new LoggerConfiguration()
                 .WriteTo.Console()

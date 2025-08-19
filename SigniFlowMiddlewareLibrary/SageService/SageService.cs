@@ -18,10 +18,17 @@ namespace SigniFlowMiddlewareLibrary.SageService
 {
     public class SageServices
     {
-        private static readonly string SAGE_URL = "https://online.sage.co.za/M91423"; // TODO: Environment.GetEnvironmentVariable("SAGE_URL");
-        MyLogs myLogs = new MyLogs();
+        // Change the field initializer to assign myLogs in the constructor instead
+        private readonly string SAGE_URL;
+        private readonly string connectionString;
+        private readonly MyLogs myLogs;
 
-        public SageServices() { }
+        public SageServices(string SAGE_URL)
+        {
+            this.SAGE_URL = SAGE_URL;
+            this.connectionString = Environment.GetEnvironmentVariable("MySQLConnectionString");
+            this.myLogs = new MyLogs(this.connectionString);
+        }
 
         /** 
          * Sage - get all employees

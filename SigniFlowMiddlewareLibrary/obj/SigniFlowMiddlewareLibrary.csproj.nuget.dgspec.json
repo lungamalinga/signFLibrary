@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniflowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj": {}
+    "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniflowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj": {
+    "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniflowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj",
         "projectName": "SigniFlowMiddlewareLibrary",
-        "projectPath": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniflowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj",
+        "projectPath": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary.csproj",
         "packagesPath": "C:\\Users\\LungaMalinga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniflowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\obj\\",
+        "outputPath": "C:\\Users\\LungaMalinga\\Desktop\\dev\\CSharpProjects\\SigniFlowMiddlewareLibrary\\SigniFlowMiddlewareLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

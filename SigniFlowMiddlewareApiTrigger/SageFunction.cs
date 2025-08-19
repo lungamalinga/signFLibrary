@@ -15,11 +15,12 @@ namespace SigniFlowMiddlewareApiTrigger;
 
 public class SageFunction
 {
-    private readonly MyLogs myLogs;
+     MyLogs myLogs;
 
     public SageFunction(ILogger<SageFunction> logger)
     {
-        myLogs = new MyLogs();
+        string connectionString = Environment.GetEnvironmentVariable("MySQLConnectionString");
+        myLogs = new MyLogs( connectionString );
     }
 
     [Function("employees")]
@@ -52,8 +53,8 @@ public class SageFunction
             return new UnauthorizedResult();
         }
         // auth end
-
-        SageServices sageServices = new SageServices();
+        string SAGE_URL = Environment.GetEnvironmentVariable("SAGE_URL");
+        SageServices sageServices = new SageServices( SAGE_URL );
         Object finalResult = null;
         Object EmployeeData = null;
         await sageServices.GetEmployees().ContinueWith(task =>

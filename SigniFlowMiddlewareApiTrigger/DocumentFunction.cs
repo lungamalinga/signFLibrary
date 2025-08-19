@@ -18,7 +18,8 @@ public class DocumentFunction
 
     public DocumentFunction(ILogger<DocumentFunction> logger)
     {
-        myLogs = new MyLogs();
+        string connectionString = Environment.GetEnvironmentVariable("MySQLConnectionString");
+        myLogs = new MyLogs( connectionString);
     }
 
     [Function("upload")]
@@ -70,7 +71,8 @@ public class DocumentFunction
             string filePath = "uploads/" + customFileName;
 
             // todo: get document header from Sage
-            var sageService = new SageServices();
+            string SAGE_URL = Environment.GetEnvironmentVariable("SAGE_URL");
+            var sageService = new SageServices( SAGE_URL);
             var header = await sageService.GetSageDocumentHeader();
 
             // post to sage - if statement here
