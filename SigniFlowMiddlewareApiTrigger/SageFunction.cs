@@ -27,7 +27,9 @@ public class SageFunction
     public async Task<IActionResult> RunAsync([HttpTrigger(AuthorizationLevel.Function, "post")] HttpRequest req)
     {
         // auth check
-        var authResult = AuthHelper.ValidateToken(req, myLogs);
+        string authToken = Environment.GetEnvironmentVariable("BearerToken");
+        var authHelper = new AuthHelper(authToken);
+        var authResult = authHelper.ValidateToken(req, myLogs);
         if (authResult != null)
         {
             return authResult;

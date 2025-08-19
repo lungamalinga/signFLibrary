@@ -7,9 +7,14 @@ using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using SigniflowMiddlewareCSharp.Loggings;
 
-public static class AuthHelper
+public class AuthHelper
 {
-    public static IActionResult ValidateToken(HttpRequest req, MyLogs log)
+    private string authToken;
+
+    public AuthHelper( string authToken) { 
+        this.authToken = authToken;
+    }
+    public IActionResult ValidateToken(HttpRequest req, MyLogs log)
     {
         string authHeader = req.Headers["Authorization"];
 
@@ -21,7 +26,7 @@ public static class AuthHelper
 
         string token = authHeader.Substring("Bearer ".Length).Trim();
 
-        string expectedToken = Environment.GetEnvironmentVariable("BearerToken");
+        string expectedToken = this.authToken;
         if (token != expectedToken)
         {
             log.LogWarning("Invalid token provided.");
