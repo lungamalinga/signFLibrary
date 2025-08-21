@@ -25,6 +25,20 @@ public class DocumentFunction
     [Function("upload")]
     public async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "post")] HttpRequest req)
     {
+
+        // auth check
+        string authToken = Environment.GetEnvironmentVariable("BearerToken");
+        var authHelper = new AuthHelper(authToken);
+        var authResult = authHelper.ValidateToken(req, myLogs);
+        if (authResult != null)
+        {
+            return authResult;
+        }
+        else {
+            myLogs.LogInfo("Authenticated successfully!");
+        }
+        // auth end
+        
         //string requestBody = await new StreamReader (req.Body).ReadToEndAsync();
         var requestBody = await JsonDocument.ParseAsync(req.Body);
 
