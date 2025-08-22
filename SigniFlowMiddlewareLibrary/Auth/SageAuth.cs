@@ -23,7 +23,7 @@ namespace SigniFlowMiddlewareLibrary.Auth
     public class SageAuth
     {
         string SAGE_URL;
-        string API_KEY; // TODO: Environment.GetEnvironmentVariable("SAGE_API_KEY");
+        string API_KEY;
 
         public SageAuth( string SAGE_URL, string API_KEY) {
             this.SAGE_URL = SAGE_URL;
