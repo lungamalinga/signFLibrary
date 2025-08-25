@@ -6,6 +6,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Serilog;
 using SigniflowMiddlewareCSharp.Loggings;
+using SigniFlowMiddlewareLibrary.Models;
 using SigniFlowMiddlewareLibrary.SageService;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;

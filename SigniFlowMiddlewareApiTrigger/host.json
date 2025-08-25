@@ -1,5 +1,8 @@
 {
   "version": "2.0",
+  "http": {
+    "maxRequestBody": 52428800
+  },
   "logging": {
     "applicationInsights": {
       "samplingSettings": {

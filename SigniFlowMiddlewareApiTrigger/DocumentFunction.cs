@@ -48,7 +48,7 @@ public class DocumentFunction
             if (!requestBody.RootElement.TryGetProperty("model", out JsonElement model_) ||
                     model_.ValueKind == JsonValueKind.Null || (model_.ValueKind == JsonValueKind.String && string.IsNullOrWhiteSpace(model_.GetString())))
             {
-                Console.WriteLine("Invalid or missing 'model'");
+                myLogs.LogError("Invalid or missing 'model'");
                 new BadRequestObjectResult("Invalid or missing 'model' value.");
                 return new OkObjectResult("Request body logged.");
             }
@@ -60,7 +60,7 @@ public class DocumentFunction
                 documentBase64Element.ValueKind != JsonValueKind.String ||
                 string.IsNullOrEmpty(documentBase64Element.GetString()))
             {
-                Console.WriteLine("Missing or invalid base64-encoded document.");
+                myLogs.LogError("Missing or invalid base64-encoded document.");
                 return new BadRequestObjectResult("Missing base64-encoded document.");
             }
 
@@ -72,17 +72,19 @@ public class DocumentFunction
             string base64String = model.GetProperty("documentBase64").ToString();
             string employeeCode = model.GetProperty("metadata").GetProperty("EmployeeCode").ToString();
             string companyRuleCode = model.GetProperty("metadata").GetProperty("CompanyRuleCode").ToString();
+            string folderPath = "uploads";
 
             DocumentServices documentServices = new DocumentServices();
             var uuid = Guid.NewGuid().ToString();
+
             // todo: add these on prod - naming -> _{signingDate}_{uuid}
-            string customFileName = $"{employeeCode}_{empName}_{empSurname}_{documentName.Replace(".pdf", "")}.pdf";
+            string customFileName = $"{employeeCode}_{empName}_{empSurname}_{documentName.Replace(".pdf", "")}_{uuid}.pdf";
 
             await documentServices.saveDocLocally(customFileName, base64String);
             myLogs.LogInfo("Received payload :: " + requestBody.RootElement.GetRawText());
 
-            // TODO : look here...
             string filePath = "uploads/" + customFileName;
+            
 
             // todo: get document header from Sage
             string SAGE_URL = Environment.GetEnvironmentVariable("SAGE_URL");
@@ -97,14 +99,13 @@ public class DocumentFunction
 
             if (sageResponse.success)
             {
-                documentServices.deleteFile(customFileName);
+                //documentServices.deleteFile(customFileName, folderPath);
                 myLogs.LogInfo("Sage upload successful: " + sageResponse.message);
                 return new OkObjectResult("Succesfull uploaded");
             }
             else
             {
-                // docService.deleteFile(customFileName);
-                documentServices.deleteFile(customFileName);
+                await documentServices.deleteFile(customFileName, Path.Combine(Directory.GetCurrentDirectory(), "uploads"));
                 myLogs.LogError("Sage upload failed: " + sageResponse.message);
                 return new BadRequestObjectResult(sageResponse.message);
             }
