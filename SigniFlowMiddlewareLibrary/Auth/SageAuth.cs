@@ -23,7 +23,12 @@ namespace SigniFlowMiddlewareLibrary.Auth
     public class SageAuth
     {
         string SAGE_URL;
+<<<<<<< HEAD
         string API_KEY; 
+=======
+        string API_KEY;
+
+>>>>>>> 02e191825273e3b1e3bcc1cce9fbf211885260dd
         public SageAuth( string SAGE_URL, string API_KEY) {
             this.SAGE_URL = SAGE_URL;
             this.API_KEY = API_KEY;
